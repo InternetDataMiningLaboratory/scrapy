@@ -8,8 +8,7 @@ libxml2-dev \
 zlib1g-dev \
 libffi-dev \
 libssl-dev \
-libxslt1-dev \
-python-setuptools -y 
+libxslt1-dev -y
 RUN pip install --default-timeout 6000 scrapyd scrapy torndb
 ADD start.sh start.sh
 EXPOSE 6800
