@@ -10,6 +10,5 @@ libffi-dev \
 libssl-dev \
 libxslt1-dev -y
 RUN pip install --default-timeout 6000 scrapyd scrapy torndb
-ADD start.sh start.sh
+RUN ["scrapyd", "&"]
 EXPOSE 6800
-ENTRYPOINT ["bash", "start.sh"]
