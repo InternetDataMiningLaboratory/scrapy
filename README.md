@@ -1,2 +1,2 @@
-# crawler
-the image of crawler based on scrapy + scrapyd
+# scrapy
+the baseimage of scrapy based on scrapy + scrapyd
